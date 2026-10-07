@@ -4,10 +4,8 @@
 export default {
   skip: 'Skip to content',
   language: 'Language',
-  tagline: 'Visits, skincare routines and chat in one app',
-  about1:
-    'SKINIOO keeps your visits, your skincare routine and your conversations with your cosmetologist in one place.',
-  about2: 'Cosmetologists use it for their calendar, their clients’ routines and their messages.',
+  // Until launch the landing page says only the name and this (lane 24d).
+  comingSoon: 'Coming soon',
   openOnPhone: 'Open this page on your phone to get the app.',
   getApp: 'Get the app:',
   appStore: 'App Store: coming soon',

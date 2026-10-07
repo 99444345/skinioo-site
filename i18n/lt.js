@@ -4,9 +4,7 @@
 export default {
   skip: 'Pereiti prie turinio',
   language: 'Kalba',
-  tagline: 'Vizitai, rutinos ir pokalbiai vienoje programėlėje',
-  about1: 'SKINIOO vienoje vietoje laiko jūsų vizitus, odos priežiūros rutiną ir pokalbius.',
-  about2: 'Kosmetologams programėlė padeda tvarkyti kalendorių, klientų rutinas ir žinutes.',
+  comingSoon: 'Netrukus',
   openOnPhone: 'Atidarykite šį puslapį telefone ir įdiekite programėlę.',
   getApp: 'Įdiekite programėlę:',
   appStore: 'App Store: netrukus',
