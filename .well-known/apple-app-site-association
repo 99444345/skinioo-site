@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["392SK9XX7Z.com.skinioo.app"],
+        "components": [
+          { "/": "/l/*", "comment": "A specialist's public booking link (lane 24)" },
+          { "/": "/invite/*", "comment": "A personal invitation (lane 14)" }
+        ]
+      }
+    ]
+  }
+}

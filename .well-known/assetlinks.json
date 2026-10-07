@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.skinioo.app",
+      "sha256_cert_fingerprints": [
+        "49:B6:0E:1A:75:47:90:F7:98:C2:86:F0:DF:3C:FD:F3:FE:DF:8C:0C:18:2B:B1:54:9C:EF:F1:F9:AC:E0:70:5A"
+      ]
+    }
+  }
+]

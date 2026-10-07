@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    />
+    <title>SKINIOO</title>
+    <link rel="stylesheet" href="/site.css" />
+    <script type="module" src="/site.js"></script>
+  </head>
+  <body data-page="home">
+    <a class="skip" href="#main" data-text="skip">Skip to content</a>
+    <header>
+      <p class="brand">SKINIOO</p>
+      <div class="languages" role="group" aria-label="Language" data-label="language">
+        <button type="button" data-language="en" aria-pressed="true" lang="en">English</button>
+        <button type="button" data-language="lt" aria-pressed="false" lang="lt">Lietuvių</button>
+      </div>
+    </header>
+    <main id="main">
+      <h1 data-text="tagline">Visits, skincare routines and chat in one app</h1>
+      <p data-text="about1">
+        SKINIOO keeps your visits, your skincare routine and your conversations with your
+        cosmetologist in one place.
+      </p>
+      <p data-text="about2">
+        Cosmetologists use it for their calendar, their clients’ routines and their messages.
+      </p>
+      <p class="hint" data-on="computer" data-text="openOnPhone" hidden>
+        Open this page on your phone to get the app.
+      </p>
+      <p data-on="phone" data-text="getApp" hidden>Get the app:</p>
+      <ul class="badges">
+        <li>
+          <span class="badge" aria-disabled="true" data-text="appStore"
+            >App Store: coming soon</span
+          >
+        </li>
+        <li>
+          <span class="badge" aria-disabled="true" data-text="googlePlay"
+            >Google Play: coming soon</span
+          >
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>© 2026 SKINIOO</p>
+    </footer>
+  </body>
+</html>

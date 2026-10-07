@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    />
+    <title>SKINIOO</title>
+    <link rel="stylesheet" href="/site.css" />
+    <link rel="modulepreload" href="/i18n/en.js" />
+    <link rel="modulepreload" href="/i18n/lt.js" />
+    <script type="module" src="/site.js"></script>
+  </head>
+  <body data-page="fallback">
+    <a class="skip" href="#main" data-text="skip">Skip to content</a>
+    <header>
+      <p class="brand"><a href="/">SKINIOO</a></p>
+      <div class="languages" role="group" aria-label="Language" data-label="language">
+        <button type="button" data-language="en" aria-pressed="true" lang="en">English</button>
+        <button type="button" data-language="lt" aria-pressed="false" lang="lt">Lietuvių</button>
+      </div>
+    </header>
+    <main id="main">
+      <noscript>
+        <h1>Open this link on a phone with the SKINIOO app installed.</h1>
+        <p lang="lt">Atidarykite šią nuorodą telefone, kuriame įdiegta programėlė SKINIOO.</p>
+      </noscript>
+      <section data-when="link" hidden>
+        <h1 data-on="phone" data-text="installThenOpen" hidden>
+          Install the app, then open this link again.
+        </h1>
+        <ul class="badges" data-on="phone" hidden>
+          <li>
+            <span class="badge" aria-disabled="true" data-text="appStore"
+              >App Store: coming soon</span
+            >
+          </li>
+          <li>
+            <span class="badge" aria-disabled="true" data-text="googlePlay"
+              >Google Play: coming soon</span
+            >
+          </li>
+        </ul>
+        <h1 data-on="computer" data-text="openLinkOnPhone" hidden>Open this link on your phone.</h1>
+        <p data-on="computer" hidden>
+          <button type="button" data-copy data-text="copyLink">Copy link</button>
+        </p>
+        <p role="status" data-copy-status></p>
+      </section>
+      <section data-when="invalid" hidden>
+        <h1 data-text="linkInvalid">This link is not valid.</h1>
+        <p data-text="linkInvalidHint">Check that you copied all of it, or ask for a new one.</p>
+      </section>
+      <section data-when="other" hidden>
+        <h1 data-text="notFound">Page not found</h1>
+        <p><a href="/" data-text="toStart">Go to the start page</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 SKINIOO</p>
+    </footer>
+  </body>
+</html>
